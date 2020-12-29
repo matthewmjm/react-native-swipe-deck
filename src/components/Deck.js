@@ -24,7 +24,6 @@ class Deck extends Component {
 
 
 
-
     render() {
         return (
             <View>
