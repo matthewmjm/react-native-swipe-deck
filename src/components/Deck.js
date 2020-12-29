@@ -1,8 +1,20 @@
 import React, { Component } from 'react';
-import {  View, Text, StyleSheet, Animated } from 'react-native';
+import {  
+    View, 
+    Text, 
+    StyleSheet, 
+    Animated, 
+    PanResponder 
+} from 'react-native';
 
 class Deck extends Component {
+    constructor(props) {
+        super(props);
 
+        const PanResponder = PanResponder.create({
+
+        });
+    }
 
     renderCards() {
         return this.props.data.map(item => {
